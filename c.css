@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+.block-container{
+    direction: rtl;
+    font-family: 'Lalezar', cursive;
+   
+}
+.css-183lzff.eyqtai90{
+    font-family: 'Lalezar', cursive;
+    font-size: 33px;
+}
+.main.css-uf99v8.egzxvld5{
+    background:linear-gradient(to left,rgb(80, 44, 44),rgb(26, 26, 56));
+}
+*{
+    font-family: 'Lalezar', cursive;
+    
+    
+}
+
+
+.css-183lzff.eyqtai90{
+color: rgb(104, 151, 77);
+}
+
+@keyframes border {
+    10%{border-color: rgb(9, 10, 75);}
+    30%{border-color: rgb(241, 67, 67);}
+    50%{border-color: rgb(4, 20, 110);}
+    70%{border-color: rgb(51, 40, 202);}
+}
+.css-q8sbsg.e16nr0p34 p{
+    animation-name: border;
+    animation-duration: 1s;
+    border-color: brown;
+    animation-iteration-count: infinite;
+    padding: 5px;
+border-style: dashed;
+}
+@keyframes img {
+    10%{border-color: rgb(66, 64, 223);}    
+    20%{border-color: rgb(236, 58, 4);}    
+    30%{border-color: rgb(64, 238, 229);}    
+    40%{border-color: rgb(253, 0, 0);}    
+}
+
+
+img{
+    animation-name: img;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+border-radius: 11px;
+border-style: groove;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: black 1px 1px 5px;
+    padding: 11px;
+    background:linear-gradient(to right,rgb(80, 44, 44),rgb(26, 26, 56));
+
+}
+a:hover{
+    box-shadow: black 2px 2px 9px;
+    background:linear-gradient(to left,rgb(80, 44, 44),rgb(26, 26, 56));
+    text-decoration: none;
+}
